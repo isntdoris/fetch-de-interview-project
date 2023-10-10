@@ -5,7 +5,7 @@
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install infra/requirements.txt
+pip install -r infra/requirements.txt
 docker-compose -f infra/docker-compose.yml up
 ```
 
